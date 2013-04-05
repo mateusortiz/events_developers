@@ -9,5 +9,12 @@
       "default_icon": "icon_32.png",
       "default_popup": "popup.html"
   },
-  "manifest_version": 2
+  "permissions": [
+    "tabs", "http://*/*","https://*/*"
+  ],
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "js" : ["js/modernizr.custom.js", "js/jquery.min.js", "js/appshowcase.js"]
+  }]
 }

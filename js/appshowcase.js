@@ -1,4 +1,4 @@
-var AppShowcase = (function() {
+var AppShowcase = (function($) {
 	
 	var $el = $( '#ac-wrapper' ),
 		// device element
@@ -11,6 +11,8 @@ var AppShowcase = (function() {
 		$screenImg = $device.find( 'img' ),
 		// the device screen title
 		$screenTitle = $device.find( '.ac-title' ),
+		// grid content
+		$gridContent = $( '#grid-content' ),
 		// HTML Body element
 		$body = $( 'body' ); 
 
@@ -19,7 +21,7 @@ var AppShowcase = (function() {
 		$trigger.on( 'click', showGrid );
 		// when a grid´s screen is clicked, show the respective image on the device
 		$screens.on( 'click', function() {
-			showScreen( $( this ) );
+			showScreen( $( this ) );			
 			return false;
 		} );
 	}
@@ -32,7 +34,7 @@ var AppShowcase = (function() {
 	}
 
 	function showScreen( $screen ) {
-		$el.removeClass( 'ac-gridview' );
+		$el.removeClass( 'ac-gridview' );		
 		if( $screen ) {
 			// update image and title on the device
 			$screenImg.attr( 'src', $screen.find( 'img' ).attr( 'src' ) );
@@ -42,4 +44,8 @@ var AppShowcase = (function() {
 
 	return { init : init };
 
-})();
+})(jQuery);
+
+$(function() {	
+	AppShowcase.init();
+});
