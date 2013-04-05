@@ -1,6 +1,6 @@
 # Extension Google Chrome Events For developers
 
-# Quem Fezr [Mateus Prado](https://twitter.com/mateusbackweb) & com ajuda do [Dan Jesus](https://twitter.com/dannjesus).
+ Quem Fez [Mateus Prado](https://twitter.com/mateusbackweb) & com ajuda do [Dan Jesus](https://twitter.com/dannjesus).
 
 ## Como instalar?
 
