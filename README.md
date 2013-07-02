@@ -1,25 +1,26 @@
-# Extension Google Chrome Events For developers
+# Events For developers - Google Chrome Extension
 
- Quem Fez [Mateus Prado](https://twitter.com/mateusbackweb) & com ajuda do [Dan Jesus](https://twitter.com/dannjesus).
 
-## Como instalar?
+## How to Use
 
-logo esta na webstore do [Chrome](), mas é gratis. 
+Coming Soon in Chrome WebStore.
 
-## Primeiros passos, quer melhorar
 
- clone o projeto:
+## Contribute
 
-	git clone git@github.com:mateuswebprado/events_developers.git
+Follow the steps below to contribute to this project.
 
-Depois vá para pasta do projeto:
+1. **Clone** the project **OR** **Fork** and create a **branch**
+2. Make the desired **commits**
+3. Send a **Pull Request**
 
-	cd events_developers
 
-E finalmente modifique:
+## Author
 
-	
+* [Mateus Prado](https://twitter.com/mateusbackweb)
 
-depois é só dar um pull request
 
+### Colaborators
+
+* [Dan Jesus](https://twitter.com/dannjesus)
 

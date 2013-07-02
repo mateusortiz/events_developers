@@ -1,20 +1,22 @@
 {
-  "name": "Calendar Eventos Developers",
-  "version": "1.0",
-  "description": "Extension to view next eventos for webdevelopers using your Chrome.",
-  "icons": { "32": "icon_32.png",
-             "128": "icon_128.png" },
-  "browser_action": {
-      "default_title": "click to see next conferences for webdevelopers.",
-      "default_icon": "icon_32.png",
-      "default_popup": "popup.html"
-  },
-  "permissions": [
-    "tabs", "http://*/*","https://*/*"
-  ],
   "manifest_version": 2,
+
+  "name": "Events for Developers",
+  "version": "1.0",
+  "description": "Chrome extension to view next events for web developers.",
+
+  "icons": {
+    "32": "icon_32.png",
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "click to see next conferences for web developers.",
+    "default_icon": "icon_32.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
   "content_scripts": [{
-    "matches": ["http://*/*"],
-    "js" : ["js/modernizr.custom.js", "js/jquery.min.js", "js/appshowcase.js"]
+    "matches": [ "http://*/*" ],
+    "js": [ "js/modernizr.custom.js", "js/jquery.min.js", "js/appshowcase.js" ]
   }]
 }
