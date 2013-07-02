@@ -1,5 +1,6 @@
-# Events For Developers - Extensão do Google Chrome
+# Events For Developers
 
+Esta é uma extensão do Google Chrome para listar eventos de Desenvolvimento Web no Brasil.
 
 ## Como utilizar
 

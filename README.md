@@ -1,5 +1,7 @@
 # Events For developers - Google Chrome Extension
 
+This is an Google Chrome extension to list conferences about Web Development in Brazil.
+
 
 ## How to Use
 
