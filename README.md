@@ -1,25 +1,28 @@
-# Extension Google Chrome Events For developers
+# Events For developers
 
- Quem Fez [Mateus Prado](https://twitter.com/mateusbackweb) & com ajuda do [Dan Jesus](https://twitter.com/dannjesus).
+This is an Google Chrome extension to list conferences about Web Development in Brazil.
 
-## Como instalar?
 
-logo esta na webstore do [Chrome](), mas é gratis. 
+## How to Use
 
-## Primeiros passos, quer melhorar
+Coming Soon in Chrome WebStore.
 
- clone o projeto:
 
-	git clone git@github.com:mateuswebprado/events_developers.git
+## Contribute
 
-Depois vá para pasta do projeto:
+Follow the steps below to contribute to this project.
 
-	cd events_developers
+1. **Clone** the project **OR** **Fork** and create a **branch**
+2. Make the desired **commits**
+3. Send a **Pull Request**
 
-E finalmente modifique:
 
-	
+## Author
 
-depois é só dar um pull request
+* [Mateus Prado](https://twitter.com/mateusbackweb)
 
+
+### Colaborators
+
+* [Dan Jesus](https://twitter.com/dannjesus)
 
